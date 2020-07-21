@@ -1,14 +1,18 @@
 import React from 'react';
 import './App.css';
-import Register from './components/first part/Register';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import LogIn from './components/login-part/Log-in';
-import HomePage from './components/home-page/Home-page';
+import Register from './components/Register/Register';
+import Login from './components/Login/Login';
+import HomePage from './components/HomePage/HomePage';
+import Quiz from './components/Quiz/Quiz';
+import Result from './components/Result/Result';
+import NextResult from './components/NextResult/NextResult';
+
 
 
 
@@ -20,17 +24,30 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/Registration">
-           <Register></Register>
-          </Route>
+          
+         <Route exact path="/">
+           <Register/>
+        </Route>
 
-          <Route path="/Login">
-            <LogIn></LogIn>
+          <Route path="/login">
+            <Login/>
           </Route>
 
           <Route path="/home-page">
-            <HomePage></HomePage>
+            <HomePage/>
           </Route>
+          <Route path="/Quiz">
+            <Quiz/>
+          </Route>
+          <Route path="/result">
+            <Result/>
+          </Route>
+          <Route path="/result-coming-soon">
+            <NextResult/>
+          </Route>
+
+
+
         </Switch>
       </Router>
       

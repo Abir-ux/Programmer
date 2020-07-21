@@ -1,0 +1,53 @@
+
+.fd{
+    padding: 6px;
+}
+
+.my{
+    width: 60px;
+    padding-left: 30px;
+}
+.green{
+    padding-left: 200px;
+}
+.pro{
+    width: 65px;
+    margin-left: 440px;
+    
+}
+.video{
+    width: 440px;
+}
+
+.left{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    border-radius: 20px;
+}
+.fds{
+    background-color: rgba(124, 133, 151, 0.157);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.kjl{
+    color: rgba(0, 128, 0, 0.781);
+    
+}
+
+.frf{
+    background-color: rgba(0, 0, 139, 0.678);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: grab;
+}
+
+.jkl{
+    color: red;
+}
+.jnj{
+    cursor: grab;
+    
+}

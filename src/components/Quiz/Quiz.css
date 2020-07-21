@@ -1,0 +1,39 @@
+.fd{
+    padding: 6px;
+}
+.green{
+    padding-left: 200px;
+}
+.my{
+    width: 60px;
+    padding-left: 30px;
+}
+.lpk{
+    text-align: center;
+}
+.kjh{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.349);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    cursor: grab;
+}
+
+
+
+.jhg{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.gty{
+    text-align: center;
+    background-color: rgba(0, 0, 139, 0.472);
+    padding: 6px;
+    border-radius: 12px;
+    cursor: grab;
+    color: white;
+}
